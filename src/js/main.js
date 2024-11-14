@@ -12,7 +12,7 @@ const size = 200,
     function startScene(){
         scene  = new THREE.Scene();
         scene.background = new THREE.Color(0xaed7f8);
-        camera = new THREE.PerspectiveCamera( 75,  // Angulo de Vision (Abajo o Arriba)
+        camera = new THREE.PerspectiveCamera( 50  // Angulo de Vision (Abajo o Arriba)
                                             window.innerWidth / window.innerHeight, // Relación Aspecto (16:9)
                                             0.1, // Mas Cerca (no renderiza)
                                             1000); // Mas lejos
